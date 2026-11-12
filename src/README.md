@@ -9,10 +9,10 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 ## Getting Started
 
-1. Install the dependencies:
+1. From the repository root, install the dependencies:
 
    ```
-   pip install fastapi uvicorn
+   pip install -r requirements.txt
    ```
 
 2. Run the application:
@@ -49,3 +49,11 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Running Tests
+
+Run the backend API tests from the repository root:
+
+```
+python -m pytest
+```
